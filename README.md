@@ -25,10 +25,16 @@ git mv a001 a002
 可组合参数 `--all`查看本地分支
 
 ##### git object
-git对象的三种类型
+git对象三种类型tree、blob和commit之间的关系。
+一个commit记载相关提交信息（作者，提交者...），对应一个tree
+文件夹对应是tree，文件是blob
+
 + tree
 + blob
 + commit
+
+
+
 
 ##### .git目录
 .git/refs/heads
