@@ -24,6 +24,12 @@ git mv a001 a002
 查看当前分支的历史提交信息
 可组合参数 `--all`查看本地分支
 
+##### git object
+git对象的三种类型
++ tree
++ blob
++ commit
+
 ##### .git目录
 .git/refs/heads
 存放blob文件存储分支对应的指针
