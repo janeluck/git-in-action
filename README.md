@@ -51,3 +51,8 @@ $ git checkout 版本号
 
 可应用于在某个版本下试改
 
+延伸：
+git checkout -b  newbranch  oldbranch
+git checkout -b  newbranch  commitVersion
+
+ 
