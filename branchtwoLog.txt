@@ -1,0 +1,46 @@
+* d62047e (origin/master, origin/HEAD, master) about checkout
+| * b670f29 (origin/branch001, branch001) ok
+|/  
+* 6aa48e5 (origin/branch002, branch002) write sth about detached head
+* 8b476d5 msg about detached head
+* ad146d0 new d002_1 file
+* bae6546 tree blob commit
+* bc90837 git object
+* e024343 new directory
+* 60a6103 (origin/branchFromCommitVersion, branchFromCommitVersion) .git目录
+*   f9a1062 (HEAD -> branchtwo, origin/branchtwo) Merge branch 'master' into branchone
+|\  
+| * 4654844 a004
+| | * 15a432a (origin/detachedCommitLinkedBranch, detachedCommitLinkedBranch) commit without branch
+| |/  
+|/|   
+* | eead29b (origin/branchone) add a new file: a003.md
+|/  
+* 1705ac1 git操作"文件重命名"
+* 050ae9d 	renamed:    a001.md -> a002.md
+* 2f7b370 new file
+* 850fd76 ignore
+* dc9f5b6 Initial commit
+* d62047e (origin/master, origin/HEAD, master) about checkout
+| * b670f29 (origin/branch001, branch001) ok
+|/  
+* 6aa48e5 (origin/branch002, branch002) write sth about detached head
+* 8b476d5 msg about detached head
+* ad146d0 new d002_1 file
+* bae6546 tree blob commit
+* bc90837 git object
+* e024343 new directory
+* 60a6103 (origin/branchFromCommitVersion, branchFromCommitVersion) .git目录
+*   f9a1062 (HEAD -> branchtwo, origin/branchtwo) Merge branch 'master' into branchone
+|\  
+| * 4654844 a004
+| | * 15a432a (origin/detachedCommitLinkedBranch, detachedCommitLinkedBranch) commit without branch
+| |/  
+|/|   
+* | eead29b (origin/branchone) add a new file: a003.md
+|/  
+* 1705ac1 git操作"文件重命名"
+* 050ae9d 	renamed:    a001.md -> a002.md
+* 2f7b370 new file
+* 850fd76 ignore
+* dc9f5b6 Initial commit
