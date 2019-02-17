@@ -59,6 +59,8 @@ git checkout -b  newbranch  commitVersion
 
 #### git rebase 变基操作
 
+> 变基操作应用于未push的本地提交
+
 git rebase -i 选择基于的版本号
 输入变基策略
 
