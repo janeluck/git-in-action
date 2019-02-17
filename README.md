@@ -52,9 +52,20 @@ $ git checkout 版本号
 可应用于在某个版本下试改
 
 延伸：
+```
 git checkout -b  newbranch  oldbranch
 git checkout -b  newbranch  commitVersion
+```
 
 #### git rebase 变基操作
+
+git rebase -i 选择基于的版本号
+输入变基策略
+
+常用：
+
+- 更改某个历史版本的提交信息
+- 合并多个历史版本的提交信息
+
 
  
