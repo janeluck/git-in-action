@@ -79,6 +79,7 @@ git rebase -i 选择基于的版本号
 + git diff: `git checkout .` 
 
 ```
+// 恢复部分文件
 git checkout -- a.txt  b.txt
 git reset HEAD -- a.txt b.txt
 ```
