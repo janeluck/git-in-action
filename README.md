@@ -72,4 +72,11 @@ git rebase -i 选择基于的版本号
     - 非连续版本
 
 
+ #### git diff
  
++ git diff -cached: `git reset HEAD`
+ 
++ git diff: `git checkout .` 
+
+
+
