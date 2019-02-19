@@ -78,5 +78,9 @@ git rebase -i 选择基于的版本号
  
 + git diff: `git checkout .` 
 
+```
+git checkout -- a.txt  b.txt
+git reset HEAD -- a.txt b.txt
+```
 
 
