@@ -98,7 +98,7 @@ git reset HEAD -- a.txt b.txt
 
 #### git 撤销操作
 
-+ git reset HEAD filename(放弃暂存区)
++ git reset HEAD filename(从已提交变为文件改动)
 + git checkout filename（放弃未存的文件改动）
 
 
