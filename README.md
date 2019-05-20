@@ -96,6 +96,10 @@ git reset HEAD -- a.txt b.txt
 + git rm -f 缓存区内有修改依然强制删除
 + git rm -cached 不再追踪，但是保留文件
 
+#### git 撤销操作
+
++ git reset HEAD filename(放弃暂存区)
++ git checkout filename（放弃未存的文件改动）
 
 
 ### tips:
