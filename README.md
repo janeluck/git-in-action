@@ -90,3 +90,16 @@ git reset HEAD -- a.txt b.txt
 + 把修改添加到缓存区
 + 标记合并冲突已经解决
 
+#### git rm  移除文件
+
++ git rm 从磁盘上删除文件并不再追踪
++ git rm -f 缓存区内有修改依然强制删除
++ git rm -cached 不再追踪，但是保留文件
+
+
+
+### tips:
+```
+$ git rm log/\*.log
+$ git log --name-only
+```
