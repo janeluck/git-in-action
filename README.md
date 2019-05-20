@@ -84,4 +84,9 @@ git checkout -- a.txt  b.txt
 git reset HEAD -- a.txt b.txt
 ```
 
+#### git add  添加内容到下一次提交中
+
++ 追踪新文件
++ 把修改添加到缓存区
++ 标记合并冲突已经解决
 
