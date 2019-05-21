@@ -106,6 +106,8 @@ git reset HEAD -- a.txt b.txt
 + git log -p -2（以补丁方式查看）
 + git log --stat （显示每次更新的文件修改统计信息）
 + git log --name-only （仅在提交信息后显示已修改的文件清单）
++ git log --no-merges feature..origin/master（日志过滤器，只显示在origin/master但不在feature分支的提交列表）
+
 
 #### git 打标签
 
@@ -124,6 +126,9 @@ git reset HEAD -- a.txt b.txt
 变基是将一系列提交按照原有次序应用到另一分支上，规整提交历史。
 合并是把最终结果合在一起。
 只对尚未推送或分享给别人的本地修改执行变基操作清理历史，从不对已推送至别处的提交执行变基操作
+
+#### git rebase -i 
+编辑多个提交
 
 ```
 git checkout feature
