@@ -101,6 +101,13 @@ git reset HEAD -- a.txt b.txt
 + git reset HEAD filename(从已提交变为文件改动)
 + git checkout filename（放弃未存的文件改动）
 
+#### 查看log
+
++ git log -p -2（以补丁方式查看）
++ git log --stat （显示每次更新的文件修改统计信息）
++ git log --name-only （仅在提交信息后显示已修改的文件清单）
+
+
 
 ### tips:
 ```
