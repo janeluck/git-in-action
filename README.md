@@ -107,7 +107,13 @@ git reset HEAD -- a.txt b.txt
 + git log --stat （显示每次更新的文件修改统计信息）
 + git log --name-only （仅在提交信息后显示已修改的文件清单）
 
+#### git 打标签
 
++ git tag: 一个有标记信息且不会更改的本地分支，可以 push到远程
+
+#### git alias
+
++ git config --global alias.co=checkout
 
 ### tips:
 ```
