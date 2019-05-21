@@ -115,6 +115,32 @@ git reset HEAD -- a.txt b.txt
 
 + git config --global alias.co=checkout
 
+#### git merge
+
++ 指针快进式合并
++ 三方合并生成一个merge提交
+
+#### git rebase
+变基是将一系列提交按照原有次序应用到另一分支上，规整提交历史。
+合并是把最终结果合在一起。
+只对尚未推送或分享给别人的本地修改执行变基操作清理历史，从不对已推送至别处的提交执行变基操作
+
+```
+git checkout feature
+git rebase master
+git checkout master 
+git merge feature
+```
+
+#### git branch
+
++ git branch -v 查看每个分支的最后一次提交
++ git branch -vv 查看每个分支的详细信息
++ git checkout --track origin/serverfix 跟踪分支是与远程分支有直接关系的本地分支
+
+
+
+
 ### tips:
 ```
 $ git rm log/\*.log
