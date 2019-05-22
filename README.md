@@ -57,12 +57,15 @@ git checkout -b  newbranch  oldbranch
 git checkout -b  newbranch  commitVersion
 ```
 
-#### git rebase 变基操作
+#### git rebase
+变基是将一系列提交按照原有次序应用到另一分支上，规整提交历史。
+合并是把最终结果合在一起。
+只对尚未推送或分享给别人的本地修改执行变基操作清理历史，从不对已推送至别处的提交执行变基操作
 
-> 变基操作应用于未push的本地提交
+> 变基操作应用于未push的本地提交，得到线性的提交历史
 
 git rebase -i 选择基于的版本号
-输入变基策略
+编辑多个提交，输入变基策略
 
 常用：
 
@@ -78,6 +81,9 @@ git rebase -i 选择基于的版本号
  
 + git diff: `git checkout .` 
 
++ git merge-base feature master 拿到共同祖先，然后 git diff parent
+
++ git diff master...feature 三点语法等同于上条命令 
 ```
 // 恢复部分文件
 git checkout -- a.txt  b.txt
@@ -107,6 +113,9 @@ git reset HEAD -- a.txt b.txt
 + git log --stat （显示每次更新的文件修改统计信息）
 + git log --name-only （仅在提交信息后显示已修改的文件清单）
 + git log --no-merges feature..origin/master（日志过滤器，只显示在origin/master但不在feature分支的提交列表）
++ git shortlog  快速生成提交总结
++ git shortlog --no-merges
++ git shortlog --not v1.0
 
 
 #### git 打标签
@@ -122,13 +131,9 @@ git reset HEAD -- a.txt b.txt
 + 指针快进式合并
 + 三方合并生成一个merge提交
 
-#### git rebase
-变基是将一系列提交按照原有次序应用到另一分支上，规整提交历史。
-合并是把最终结果合在一起。
-只对尚未推送或分享给别人的本地修改执行变基操作清理历史，从不对已推送至别处的提交执行变基操作
 
-#### git rebase -i 
-编辑多个提交
+
+
 
 ```
 git checkout feature
@@ -143,6 +148,8 @@ git merge feature
 + git branch -vv 查看每个分支的详细信息
 + git checkout --track origin/serverfix 跟踪分支是与远程分支有直接关系的本地分支
 
+#### git archive
+打包发布
 
 
 
